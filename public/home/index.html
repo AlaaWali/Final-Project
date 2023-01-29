@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!--- start navbar-top --->
+    <nav class="navbar navbar-expand-lg bg-light navbar-top">
+        <div class="container">
+            <span class="text">Free Shipping on All orders Over $75!</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Wishlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Currency: Usd<i class="fa-solid fa-angle-down ms-3"></i></a>
+                    </li>
+                    <li class="nav-item cart">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping me-3"></i>My Cart(2)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--- end navbar-top --->
+    <!--- start search-bar --->
+    <section class="search-bar">
+        <div class="search">
+            <input class="search-text" type="text" name="searchInput" placeholder="Search Here What You Need...."
+                value="">
+            <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </section>
+    <!--- end search-bar --->
+    <!--- start navbar-header --->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-header">
+        <div class="container">
+            <h2 class="logo">Fashion</h2>
+            <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#collection">Collection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featured">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trending">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about us">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#brand">Brand</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--- end navbar-header --->
+
+    <!--- start header --->
+    <section id="header" class="header">
+        <div class="text-container">
+            <p>SOMTHING IS BETTER</p>
+            <h2>Fashion Lorrem</h2>
+        </div>
+    </section>
+    <!--- end header --->
+
+    <!--- start collection --->
+    <section id="collection" class="collection-list py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="card border-0 col-md-6 col-lg-6 bg-transparent">
+                    <img src="imgs/collection-img1.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h3 class="list-title">Hot Collection</h3>
+                        <h4 class="list-title">New Trend For Women</h4>
+                        <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur mollis neque eu erat aliquet posuere. Curabitur quis
+                            placerat nulla, nec vulputate arcu.</p>
+                        <div class="shop-now">
+                            <a href="#" class="btn btn-outline-secondary rounded-0 px-4 button">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0 col-md-4 col-lg-4 bg-transparent gap-4">
+                    <img class="layer" src="imgs/collection-img2.jpg" alt="">
+                    <img src="imgs/collection-img3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- end collection --->
+    <!--- start featured --->
+    <section id="featured" class="featured py-5">
+        <div class="container">
+            <div class="separator">
+                <div class="line"></div>
+                <h2>featured items</h2>
+                <div class="line"></div>
+            </div>
+            <ul class="d-flex flex-wrap justify-content-center list-unstyled gap-5 featured-items ">
+                <li>
+                    <a class="text-decoration-none" href="#">All</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none" href="#">Men</a>
+                </li>
+                <li>
+                    <a class="active" href="#">Women</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none" href="#">Kids</a>
+                </li>
+            </ul>
+            <div class="featured-list row justify-content-center">
+                <div class="col-12 col-lg-3 col-md-4 col-sm-6 py-3 ">
+                    <div class="list-group position-relative">
+                        <img src="imgs/featured-item1.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="price">
+                            <h5>$150.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4  col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/featured-item2.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="price">
+                            <h5>$150.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4 col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/featured-item3.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="sale">
+                            <h4>20% OFF</h4>
+                        </div>
+                        <div class="price">
+                            <h5>$120.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4 col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/featured-item4.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="price">
+                            <h5>$150.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4 col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/featured-item5.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="sale">
+                            <h4>20% OFF</h4>
+                        </div>
+                        <div class="price">
+                            <h5>$120.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4 col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/featured-item6.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="price">
+                            <h5>$150.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4 col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/featured-item3.jpg" alt="" class="layer">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="view-icon">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="price">
+                            <h5>$150.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4 col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/featured-item4.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="sale">
+                            <h4>20% OFF</h4>
+                        </div>
+                        <div class="price">
+                            <h5>$150.00</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- end featured --->
+
+
+    <!--- start offer --->
+    <section class="offer">
+        <div class="overlay"></div>
+        <div class="offer-layer">
+            <img src="imgs/offer-img1.jpg" alt="" srcset="">
+            <div class="offer-details offer-details-left">
+                <h1 class="title">70% OFF</h1>
+                <h5 class="description">Tao Kinben Na?</h5>
+            </div>
+        </div>
+        <div class="offer-layer">
+            <img src="imgs/offer-img2.jpg" alt="" srcset="">
+            <div class="offer-details offer-details-right">
+                <h5 class="title">AMR CHEHARA KHARAP NA</h5>
+                <h1 class="description"> Chehara <span> Dia Ki hoy </span></h1>
+            </div>
+        </div>
+    </section>
+    <!--- end offer --->
+
+    <!--- start trending --->
+    <section id="trending" class="trending py-5">
+        <div class="container">
+            <div class="separator">
+                <div class="line"></div>
+                <h2>trending items</h2>
+                <div class="line"></div>
+            </div>
+            <div class="trending-list row justify-content-center">
+                <div class="col-12 col-lg-3 col-md-4 col-sm-6 py-3 ">
+                    <div class="list-group position-relative">
+                        <img src="imgs/trending-item1.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="price">
+                            <h5>$150.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4 col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/trending-item2.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="price">
+                            <h5>$150.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4 col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/trending-item3.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="sale">
+                            <h4>20% OFF</h4>
+                        </div>
+                        <div class="price">
+                            <h5>$120.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4 col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/trending-item4.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="price">
+                            <h5>$150.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4 col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/trending-item5.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="sale">
+                            <h4>20% OFF</h4>
+                        </div>
+                        <div class="price">
+                            <h5>$120.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4 col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/trending-item6.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="price">
+                            <h5>$150.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4 col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/trending-item7.jpg" alt="" class="layer">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="view-icon">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="price">
+                            <h5>$150.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12 col-lg-3 col-md-4 col-sm-6 py-3">
+                    <div class="list-group position-relative">
+                        <img src="imgs/trending-item8.jpg" alt="">
+                        <div class="list-item">
+                            <h5>Suspendisse et.</h5>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star star"></i>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="add-to-card"><i class="fa-sharp fa-solid fa-heart cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa fa-cart-shopping cart"></i></a>
+                            <a href="#" class="add-to-card"><i class="fa-solid fa-share-nodes cart"></i></a>
+                        </div>
+                        <div class="price">
+                            <h5>$150.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="load-btn d-flex justify-content-center py-3">
+                    <a href="#" class="btn rounded-0 load-more button">LOAD MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- end trending --->
+
+    <!--- start about us --->
+    <section id="about-us" class="about py-5">
+        <i class="fa-sharp fa-solid fa-quote-left "></i>
+        <p>"Nunc vulputate odio vitae sapien euismod rhoncus. Vestibulum ante orci,
+            elemet molestie sed, efficitur a augue. Quisque placerat laoreet lorem"</p>
+        <img src="imgs/about-img2.jpg" alt="">
+        <h2>MD SHAHIN ALAM</h2>
+        <h3>Ceo Of TTCM </h3>
+    </section>
+    <!--- end about us --->
+
+    <!--- start blog --->
+    <section id="blog" class="blog py-5">
+        <div class="container">
+            <div class="separator">
+                <div class="line"></div>
+                <h2>Latest Blog</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="card border-0 col-md-6 col-lg-4 py-3">
+                    <img src="imgs/blog-img1.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Some Headline Here</h4>
+                        <p class="card-text">Vivamus ultrices ut erat ut ullamcorper. Sed sem est,
+                            pellentesque auctor malesuada in, sollicitu- pulvinar metus.
+                            Aliquam scelerisque aliquet faucibus.</p>
+                        <div class="read-btn d-flex py-2">
+                            <a href="#" class="btn rounded-0 read-more button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0 col-md-6 col-lg-4 py-3">
+                    <img src="imgs/blog-img2.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Some Headline Here</h4>
+                        <p class="card-text">Vivamus ultrices ut erat ut ullamcorper. Sed sem est,
+                            pellentesque auctor malesuada in, sollicitu- pulvinar metus.
+                            Aliquam scelerisque aliquet faucibus.</p>
+                        <div class="read-btn d-flex py-2">
+                            <a href="#" class="btn rounded-0 read-more button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0 col-md-6 col-lg-4 py-3">
+                    <img src="imgs/blog-img3.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Some Headline Here</h4>
+                        <p class="card-text"> Vivamus ultrices ut erat ut ullamcorper. Sed sem est,
+                            pellentesque auctor malesuada in, sollicitu- pulvinar metus.
+                            Aliquam scelerisque aliquet faucibus.</p>
+                        <div class="read-btn d-flex py-2">
+                            <a href="#" class="btn rounded-0 read-more button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- end blog --->
+    <!--- start brand --->
+    <section id="brand" class="brand py-5">
+        <div class="container">
+            <div class="separator">
+                <div class="line"></div>
+                <h2>Shop By Brand</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row justify-content-around gap-3 py-3">
+                <div class="brand-img">
+                    <img src="imgs/brand-img1.jpg" alt="">
+                </div>
+                <div class="brand-img">
+                    <img src="imgs/brand-img1.jpg" alt="">
+                </div>
+                <div class="brand-img">
+                    <img src="imgs/brand-img2.jpg" alt="">
+                </div>
+                <div class="brand-img">
+                    <img src="imgs/brand-img1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- end brand --->
+    <!--- start footer --->
+    <footer id="footer" class="footer py-5">
+        <div class="container">
+            <div class="footer-menu row py-4 g-4">
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="footer-title">SHOPS</h5>
+                    <ul class="list-unstyled">
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">New In</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Women</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Men</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Schuhe Shoes</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Bags & Accessories</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Top Brands</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Sale & Special Offers</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Lookbook</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="footer-title">INFORMATION</h5>
+                    <ul class="list-unstyled">
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">About Us</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Customer Service</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">New Collection</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Best Sellers</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Manufacturers</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Privacy Policy</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Terms & Condition</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="footer-title">CUSTOMER SERVICE</h5>
+                    <ul class="list-unstyled">
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Search Terms</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none ">Advanced Search</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Orders and Returns</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Contact US</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">RSS</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Help & FAQS</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Consultant</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#" class="text-decoration-none">Store Locations</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="footer-title ">NEWSLETTER</h5>
+                    <h6 class="sign-up m-0 pb-3">Sign Up for News Letter</h6>
+                    <div class="e-mail pb-3 pt-2">
+                        <input type="text" class="form-control rounded-0 email-btn" placeholder="Type Your E-mail">
+                    </div>
+                    <div class="subscribe pb-3 pt-2">
+                        <button class="btn btn-light rounded-0 w-100 sub-btn" type="submit">SUBSCRIBE</button>
+                    </div>
+                    <div>
+                        <ul class="list-unstyled d-flex flex-wrap justify-content-center m-0">
+                            <li>
+                                <a href="#" class="footer-icon text-decoration-none fs-2 pe-2">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-icon text-decoration-none fs-2 pe-2">
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-icon text-decoration-none fs-2 pe-2">
+                                    <i class="fa-brands fa-square-behance"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-icon text-decoration-none fs-2 pe-2">
+                                    <i class="fa-brands fa-square-tumblr"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-icon text-decoration-none fs-2 pe-2">
+                                    <i class="fa-brands fa-vimeo"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class=" footer-icon text-decoration-none fs-2 pe-2">
+                                    <i class="fa-brands fa-square-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--- end footer --->
+    <!--- start footer-bottom --->
+    <footer class="footer-bottom">
+        <div class="container">
+            <div class="row align-item-center">
+                <div class="col-xl-6 col-lg-6 ">
+                    <div class="copyright-text">
+                        <p>©2014 ELLA Fashion Store Shopify.All Rights Reserved.Ecommerce Software by
+                            <a href="#">Shopify.</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block ">
+                    <div class="payment-list">
+                        <ul>
+                            <li><a href="#">VISA</a></li>
+                            <li><a href="#">Master Card</a></li>
+                            <li><a href="#">PayPal</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--- end footer-bottom --->
+    <!-- start button up -->
+    <a href="#">
+        <div class="icon fa-3x position-fixed bottom-0 me-auto text-dark ">
+            <i class="fa-solid fa-circle-arrow-up "></i>
+        </div>
+    </a>
+    <!-- end button up -->
+    <script src="javascript/bootstrap.min.js"></script>
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,584 @@
+html {
+    scroll-behavior: smooth;
+    --nav-height: 75px;
+    scroll-padding-top: var(--nav-height);
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.separator .line {
+    height: 5px;
+    flex: 1;
+    opacity: 0.1;
+    border: solid 1px;
+}
+
+.separator h2 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Encode Sans";
+    color: rgb(80, 80, 80);
+    padding: 0 0.5rem 0.5rem;
+    margin: auto;
+}
+
+.layer {
+    filter: contrast(0.5);
+}
+
+.button:hover {
+    background-color: rgb(225, 62, 215);
+    border-color: rgb(225, 62, 215);
+    color: white;
+}
+
+/* --- start navbar-top --- */
+.navbar-top .text {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: rgba(134, 131, 131, 0.904);
+}
+
+.navbar-top .nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: rgb(134, 131, 131);
+}
+
+.navbar-top .cart a {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: rgb(225, 62, 215);
+}
+
+.navbar-top .cart i {
+    font-size: 12px;
+}
+
+/* --- end navbar-top --- */
+/* --- start search-bar --- */
+.search-bar {
+    width: 100%;
+    max-width: 31.25rem;
+    margin: 1rem auto;
+}
+
+.search-bar .search {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.search-bar .search-text {
+    width: 100%;
+    height: 2.8rem;
+    outline: none;
+    border: solid 0.5px;
+    border-color: #b1a9a9;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+}
+
+.search-bar .search-icon {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    color: #b1a9a9;
+    font-size: 1rem;
+}
+
+.search-bar .search-icon:hover {
+    cursor: pointer;
+}
+
+/* --- end search-bar --- */
+/* --- start navbar-header --- */
+.navbar-header {
+    background-color: rgba(0, 0, 0, 0.950);
+}
+
+.navbar-header .logo {
+    font-size: 50px;
+    font-family: "Alex Brush";
+    color: white;
+    margin: 0;
+}
+
+.navbar-header .nav-link {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.navbar-header .nav-link:hover,
+.navbar-header .nav-link.active {
+    color: rgb(247, 134, 239);
+}
+
+/* --- end navbar-header --- */
+
+/* ---  start header --- */
+.header {
+    background-image: url(../../imgs/banner-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.text-container {
+    background-color: rgba(225, 62, 215, 0.6);
+    color: white;
+    padding: 12px;
+}
+
+.text-container p {
+    margin-bottom: 4px;
+    letter-spacing: 3px;
+}
+
+.text-container h2 {
+    margin-bottom: 0;
+}
+
+/* ---  end header --- */
+
+/* ---  start featured & trending --- */
+.featured-items {
+    margin: auto;
+    padding: 0 0 1rem;
+}
+
+.featured-items a {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Open Sans';
+    color: rgb(118, 112, 112);
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: grey;
+}
+
+.featured-items a:hover,
+.featured-items a.active {
+    color: rgb(225, 62, 215);
+}
+
+.list-group {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin: auto;
+}
+
+.list-group .list-item h5 {
+    padding-top: 5px;
+    margin: auto;
+    font-size: 23px;
+    font-family: "Arial";
+    color: rgb(87, 82, 82);
+}
+
+.list-group .list-item .stars {
+    color: rgb(225, 62, 215);
+    padding-top: 5px;
+}
+
+.list-group .list-item .star {
+    color: rgb(197, 195, 197);
+}
+
+.list-group .icons {
+    display: flex;
+    gap: 15px;
+    flex-direction: initial;
+    padding-top: 5px;
+}
+
+.list-group .icons i {
+    color: rgb(190, 189, 190);
+    height: 95%;
+    padding: 8px 8px;
+    border-width: 1px;
+    border-color: rgb(197, 195, 197);
+    border-style: solid;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.list-group .view-icon {
+    position: absolute;
+    top: 35%;
+    right: 38%;
+    width: 25%;
+    height: 13%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+
+.list-group .view-icon i {
+    font-size: 25px;
+    color: white;
+}
+
+.list-group .sale {
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    width: 20%;
+    height: 11%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(225, 62, 215);
+}
+
+.list-group .sale h4 {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+}
+
+.list-group .price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 7%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.list-group .price h5 {
+    color: white;
+    font-size: 15px;
+    margin: 0;
+}
+
+.load-more {
+    font-size: 16px;
+    font-family: "Open Sans";
+    line-height: 2.3;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 1px solid;
+    height: 50px;
+    width: 225px;
+}
+
+/* ---  end featured & trending --- */
+
+
+/* --- start offer --- */
+.offer {
+    display: flex;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    background-color: black;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.offer img {
+    width: 100%;
+    height: 100%;
+}
+
+.offer-layer {
+    width: 50%;
+    position: relative;
+}
+
+.title {
+    color: white;
+    font-family: "Encode Sans";
+    text-align: center;
+}
+
+.description {
+    color: white;
+    font-family: "Encode Sans";
+    text-align: center;
+}
+
+.offer-details {
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-details-left {
+    left: 55%;
+}
+
+.offer-details-left .title {
+    font-weight: bold;
+}
+
+.offer-details-right {
+    align-items: center;
+}
+
+.offer-details-right .title {
+    letter-spacing: 3px;
+}
+
+.offer-details-right .description {
+    font-weight: bold;
+    color: rgb(225, 62, 215);
+}
+
+.offer-details-right .description span {
+    color: white;
+}
+
+/* ---  end offer --- */
+
+
+/* --- start about us --- */
+.about {
+    text-align: center;
+    align-items: center;
+    background-image: url(../../imgs/about-img1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Encode Sans";
+    color: white;
+}
+
+.about i {
+    font-size: 24px;
+    font-family: "FontAwesome";
+    color: rgb(225, 62, 215);
+}
+
+.about p {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.about h2 {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.about h3 {
+    font-size: 12.5px;
+    color: rgb(220, 219, 219);
+}
+
+/* ---  end about us --- */
+
+
+/* ---  start blog --- */
+.blog .card .card-title {
+    font-size: 30px;
+    font-family: "Aleo";
+    color: rgb(80, 80, 80);
+    padding: 8px 0;
+    margin: 0;
+}
+
+.blog .card .card-text {
+    padding: 8px 0;
+    margin: 0;
+    line-height: 1.8;
+}
+
+.blog .card .read-more {
+    border: 1px solid;
+    font-size: 15px;
+    font-weight: 600;
+    width: 125px;
+}
+
+/* ---  end blog --- */
+/* ---  start brand --- */
+.brand .brand-img {
+    width: 180px;
+}
+
+.brand .brand-img img {
+    width: 100%;
+}
+
+/* ---  end brand --- */
+/* ---  start footer --- */
+.footer {
+    background-color: rgb(29, 29, 29);
+}
+
+.footer .footer-menu .footer-title {
+    font-size: 17px;
+    font-family: "Source Sans Pro";
+    color: white;
+    font-weight: 600;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0 0 1rem;
+}
+
+.footer-menu .footer-text a {
+    font-size: 15px;
+    font-family: "Source Sans Pro";
+    color: rgb(145, 145, 145);
+    font-weight: 600;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.footer-menu .sign-up {
+    font-size: 16px;
+    font-family: "Source Sans Pro";
+    color: rgb(145, 145, 145);
+    font-weight: 600;
+}
+
+.footer .footer-menu .email-btn {
+    background-color: #202020;
+    border-color: rgba(255, 255, 255, 0.192);
+    font-weight: 600;
+}
+
+.footer .footer-menu .sub-btn {
+    background-color: rgb(225, 62, 215);
+    border-color: rgb(225, 62, 215);
+    color: white;
+    font-weight: 600;
+    font-family: "Source Sans Pro";
+    letter-spacing: 1px;
+}
+
+.footer .footer-menu .footer-icon {
+    color: rgb(145, 145, 145);
+}
+
+/* ---  end footer --- */
+/* ---  start footer-bottom --- */
+.footer-bottom {
+    background: black;
+    padding: 25px 0;
+}
+
+.footer-bottom .copyright-text p,
+.footer-bottom .copyright-text a {
+    margin: 0;
+    font-size: 15px;
+    font-family: "Source Sans Pro";
+    color: rgb(168, 166, 166);
+    line-height: 1.929;
+    text-decoration: none;
+}
+
+.footer-bottom .payment-list ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: right;
+}
+
+.footer-bottom .payment-list li {
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+.footer-bottom .payment-list li a {
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(168, 166, 166);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.688;
+    text-decoration: none;
+}
+
+.footer-bottom .copyright-text a:hover,
+.footer-bottom .payment-list li a:hover {
+    color: rgb(225, 62, 215);
+}
+
+/* ---  end footer-bottom --- */
+/* ---------------- start button up ----------------- */
+.icon {
+    display: none;
+    right: 5px;
+}
+
+/* ---------------- end button up ----------------- */
+/* ---------------- start @media ----------------- */
+@media only screen and (max-width: 700px) {
+    .offer-details h1 {
+        font-size: 18px;
+    }
+
+    .offer-details h5 {
+        font-size: 12px;
+    }
+
+    .about p {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .offer-details h1 {
+        font-size: 14px;
+    }
+
+    .offer-details h5 {
+        font-size: 8px;
+    }
+}
+
+/* ---------------- end @media ----------------- */
